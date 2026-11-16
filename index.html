@@ -1,0 +1,213 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>sync.ed homepage</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=0.50">
+    </head>
+
+    <body>
+        <header>
+            <pre>
+                                                                 ,---,
+                             ,---,                             ,---.'|
+   .--.--.               ,-+-. /  |                            |   | :
+  /  /    '       .--,  ,--.'|'   |   ,---.         ,---.      |   | |
+ |  :  /`./     /_ ./| |   |  ,"' |  /     \       /     \   ,--.__| |
+ |  :  ;_    , ' , ' : |   | /  | | /    / '      /    /  | /   ,'   |
+  \  \    `./___/ \: | |   | |  | |.    ' /      .    ' / |.   '  /  |
+   `----.   \.  \  ' | |   | |  |/ '   ; :__     '   ;   /|'   ; |:  |
+  /  /`--'  / \  ;   : |   | |--'  '   | '.'| ___'   |  / ||   | '/  '
+ '--'.     /   \  \  ; |   |/      |   :    :/  .\   :    ||   :    :|
+ `--'---'     :  \  \'---'        \   \  / \  ; \   \  /  \   \  /
+              \__'_;              `----'   `--" `----'    `----'
+            </pre>
+        </header>
+
+        <hr />
+
+        <div id="datetime"></div>
+
+        <hr />
+        
+        <nav class="navbar">
+
+            <a href="index.html" class="nav-active">[SYNC]</a> |
+        
+            <a href="aboutus.html" class="nav-link">[About Us]</a> |
+        
+            <a href="products.html" class="nav-link">[Products]</a> |
+        
+            <a href="contactus.html" class="nav-link">[Contacts]</a>
+
+        </nav>
+
+        <hr />
+
+        <main>
+            <section>
+
+                <article>
+                    <p>user@sync.ed:~$ open SYNC.txt</p>
+    
+                    <p>
+                        SYSTEM MESSAGE: Welcome to SYNC.ed
+                        <br>
+                        Goal: Make life be in sync with our vision.
+                    </p>
+                </article>
+    
+                <hr />
+    
+                <h2>> Introducing SYNC.ed and our mission.</h2>
+    
+                <hr />
+                    
+                <article>
+                    <p>
+                        Statement: SYNC, an up and coming IoT company, hopes to bring to life connected experiences and ideas that everyday people, 
+                        creatives and working professionals would want to use and experience. 
+                        <br>
+                        <br>
+                        In the age of AI taking over the world, and contemporary tech companies slowing down not only innovation but also design. 
+                        SYNC hopes to bring a new age of tech with design that's not only exciting, but functional back in 2026. 
+                        <br>
+                        <br>
+                        Starting with 3 new products,
+                        <br>
+                        lets sync a vision of exploration and expression in the current world of today!
+                
+                    </p>
+                
+                    <hr />
+
+                    <hr />
+                    
+                    <br />
+                    <br />
+                    <br />
+    
+                </article>
+    
+                <hr /> 
+    
+                <article>
+                    <h3>### NEW ARRIVALS ###</h3>
+                    
+                    <hr /> 
+    
+                    <p>
+                        SYSTEM MESSAGE 2: New product arrivals
+                        <br>
+                        Codename: Palate, Pencil, CELL/BE
+                    </p>
+    
+                    <div class="table-container">
+                    
+                        <table style="width: 100%; min-width: 600px;">
+                            <tr>
+                                <th><video height="317px" autoplay loop>
+                                        <source src="images/Timeline 2.mov" type="video/mp4">
+                                    </video></th>
+    
+                                <th><img src="images/Surface-Slim-Pen-2-1-scaled-466455863.jpg" style="width: 510px;"></th>
+    
+                                <th><img src="images/images.jpeg" style="width:317px;height:317px;"></th>
+    
+                            </tr>
+    
+                            <tr>
+                                <th colspan="3">
+                                    <br>
+                                    <h1 class="h1-hoverable">
+                                        <a href="products.html">
+                                            Click here to find out more about SYNCs products
+                                        </a>
+                                    </h1>
+                                    <br>
+                                </th>
+                            </tr>
+    
+                        </table>
+    
+                    </div>
+                    
+                    <hr />
+
+                    <hr />
+                    
+                    <br />
+                    <br />
+                    <br />
+    
+                </article>
+    
+                <article>
+                    <hr />
+
+                    <h3>### Our Team ###</h3>
+                    
+                    <hr /> 
+    
+                    <p>
+                        SYSTEM MESSAGE 2: SYNC members
+                    </p>
+    
+                    <div class="table-container">
+                    
+                        <table style="width: 100%; min-width: 600px;">
+                            <tr>
+                                <th colspan="3">
+                                    <br>
+                                    <h1 class="h1-hoverable">
+                                        <a href="aboutus.html">
+                                            Click here to find out more about SYNCs members
+                                        </a>
+                                    </h1>
+                                    <br>
+                                </th>
+                            </tr>
+    
+                        </table>
+    
+                    </div>
+
+                    <hr />
+
+                    <hr />
+                    
+                    <br />
+                    <br />
+                    <br />
+
+                </article>
+    
+            </section>
+        </main>
+
+        <hr />
+
+        <hr />
+
+        <footer>
+            <p>Author: Mikael</p>
+            <p><a href="contactus.html">connect with us</a></p>
+            <p><a href="index.html">Get SYNC.ed again</a></p>
+            <p>Copyright &copy; 2026 SYNC.ed Inc</p>
+        </footer>
+
+        <script>
+            const now = new Date();
+        
+            const date = now.toLocaleDateString();
+            const time = now.toLocaleTimeString();
+        
+            document.getElementById("datetime").innerHTML =
+                "sync.ed // Last login: " + date + "|" + time + " // connection: online";
+        </script>
+
+    </body>
+    
+</html>
